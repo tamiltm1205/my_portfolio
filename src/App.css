@@ -7,14 +7,24 @@ header ul li {
     @apply px-2;
 }
 
-.tm-tamil{
+.tm-tamil {
 
     background: rgb(85 81 227);
 }
-.mobile-nav{
-     
-    @apply fixed top-10 left-0 bg-gray-500 w-full h-1/5; 
+.tm-aadhi {
+    background: rebeccapurple;
 }
-.mobile-nav li{
+
+.mobile-nav {
+     
+    @apply fixed top-10 left-0 bg-gray-950 w-full h-1/5; 
+}
+.mobile-nav li {
     @apply w-full h-full text-center border-b-2;
+}
+.button {
+    @apply tm-tamil px-5 py-2 font-bold 
+}
+html{
+    scroll-behavior: smooth;
 }
